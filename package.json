@@ -1,4 +1,5 @@
 {
+
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -14,6 +15,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+   
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -38,6 +40,7 @@
     ]
   },
   "devDependencies": {
-    "babel-plugin-styled-components": "^2.0.7"
+    "babel-plugin-styled-components": "^2.0.7",
+    "gh-pages": "^4.0.0"
   }
 }
