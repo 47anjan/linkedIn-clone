@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.js": "/linkedIn-clone.git/static/js/main.40a5fabc.js",
+    "static/media/hiring.png": "/linkedIn-clone.git/static/media/hiring.23ced30dc909c08b9d78.png",
+    "static/media/naruto.jpg": "/linkedIn-clone.git/static/media/naruto.ef5192a5fae8c07f21d3.jpg",
+    "static/media/post2.jpg": "/linkedIn-clone.git/static/media/post2.8378c54465030c8452d0.jpg",
+    "static/media/post1.jpg": "/linkedIn-clone.git/static/media/post1.369ecd252701c564de6c.jpg",
+    "static/media/linkdin.svg": "/linkedIn-clone.git/static/media/linkdin.2525ac6d6ffe1455f6da1cc7c097ed8c.svg",
+    "static/media/rotate.svg": "/linkedIn-clone.git/static/media/rotate.a9b2b32cc8218dd75acaef20c0334751.svg",
+    "static/media/like.svg": "/linkedIn-clone.git/static/media/like.9993c84161e56f3091e361a5a96a9f2e.svg",
+    "index.html": "/linkedIn-clone.git/index.html",
+    "static/media/event.svg": "/linkedIn-clone.git/static/media/event.5ca42c0c169767a32b35d42ea95b7e7f.svg",
+    "static/media/public.svg": "/linkedIn-clone.git/static/media/public.14b22b10d18556940876eb16ae14fcfa.svg",
+    "static/media/logo.svg": "/linkedIn-clone.git/static/media/logo.efb2f21282eba3aed0c58313509fd313.svg",
+    "static/media/message.svg": "/linkedIn-clone.git/static/media/message.4fb44236bf2c4e29767fe108a8b4f489.svg",
+    "static/media/premium.svg": "/linkedIn-clone.git/static/media/premium.55e792f5b044ed5c346efc9b8cc4bca6.svg",
+    "static/media/network.svg": "/linkedIn-clone.git/static/media/network.aa4bef9fb64a88099400cf495e32e289.svg",
+    "static/media/info.svg": "/linkedIn-clone.git/static/media/info.af88c2dbd82c6d90c9c534ff92d4aa73.svg",
+    "static/media/edit.svg": "/linkedIn-clone.git/static/media/edit.64fcd74613746423529cdfd36d16f42b.svg",
+    "static/media/jobs.svg": "/linkedIn-clone.git/static/media/jobs.5e118a1c458f68d1025789bee4bb1987.svg",
+    "static/media/photo.svg": "/linkedIn-clone.git/static/media/photo.2b977c9c8054dc79cb5f22154e804267.svg",
+    "static/media/notification.svg": "/linkedIn-clone.git/static/media/notification.91bce1ad47c02d46d540089bc7d26874.svg",
+    "static/media/comment.svg": "/linkedIn-clone.git/static/media/comment.f0bd4a3f6b30c702a5f4470115f0aa7e.svg",
+    "static/media/more.svg": "/linkedIn-clone.git/static/media/more.82a3cf28ab54e94939434c7ffd788153.svg",
+    "static/media/search.svg": "/linkedIn-clone.git/static/media/search.dc01fc9b054ddb5fcdbd7d2c304be778.svg",
+    "static/media/work.svg": "/linkedIn-clone.git/static/media/work.40a34bc11c75af786f4cf58b9c2495a6.svg",
+    "static/media/home.svg": "/linkedIn-clone.git/static/media/home.d25edd20c7bbd6519c9e0479efad1023.svg",
+    "static/media/article.svg": "/linkedIn-clone.git/static/media/article.8b918acc56a4701d8850025b2432a03b.svg",
+    "static/media/video.svg": "/linkedIn-clone.git/static/media/video.238d18774bca43f854e7b5bd8f17059e.svg",
+    "static/media/send.svg": "/linkedIn-clone.git/static/media/send.eb7324a8aab5baf18ae2b81ed433b3d3.svg",
+    "static/media/arowright.svg": "/linkedIn-clone.git/static/media/arowright.112d5af93e93546bbf7ede90f06a1fe6.svg",
+    "static/media/bookmark.svg": "/linkedIn-clone.git/static/media/bookmark.a809d4571e7c56b49073cd0f097b2098.svg",
+    "static/media/chevronup.svg": "/linkedIn-clone.git/static/media/chevronup.894d2fab7508a3a13a58eacfa8a088b1.svg",
+    "static/media/chevron.svg": "/linkedIn-clone.git/static/media/chevron.1e7f01f6ab8a26fd39b8859241f3c2d4.svg",
+    "static/media/add.svg": "/linkedIn-clone.git/static/media/add.d21b34832342ac1163379c24bf128d4a.svg",
+    "main.40a5fabc.js.map": "/linkedIn-clone.git/static/js/main.40a5fabc.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.40a5fabc.js"
+  ]
+}
