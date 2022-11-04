@@ -141,6 +141,7 @@ const CardContainer = styled.div`
 const ProfileCard = styled.div`
   text-align: center;
   border-bottom: 1px solid #e0dfdc;
+  cursor: pointer;
   .info {
     padding: 1rem 0.75rem;
     padding-top: 0;

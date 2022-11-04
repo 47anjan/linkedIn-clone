@@ -143,6 +143,18 @@ const ListWrapper = styled.li`
       border-radius: 100vh;
     }
   }
+  &:nth-child(2) {
+    &::after {
+      border-bottom: 2px solid #191919;
+      content: "";
+      bottom: 0px;
+      left: 0;
+      position: absolute;
+      transform: scaleX(1);
+      transition: transform 0.2s ease-in-out;
+      width: 100%;
+    }
+  }
   &:nth-child(8) {
     border-left: 1px solid #ebebeb;
   }
