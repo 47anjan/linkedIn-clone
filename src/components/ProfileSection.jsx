@@ -4,6 +4,7 @@ import profile from "../images/naruto.jpg";
 import premium from "../images/premium.svg";
 import bookmark from "../images/bookmark.svg";
 import add from "../images/add.svg";
+import chevron from "../images/chevrondown.svg";
 
 const ProfileSection = () => {
   return (
@@ -43,7 +44,10 @@ const ProfileSection = () => {
           <p>My items</p>
         </Bookmark>
       </Wrapper>
-
+      <ShowMore>
+        <span>Show more</span>
+        <img src={chevron} alt="" />
+      </ShowMore>
       <div className="sticky">
         <Wrapper>
           <BottomCard>
@@ -73,6 +77,35 @@ const ProfileSection = () => {
   );
 };
 
+const ShowMore = styled.div`
+  padding: 2px 8px;
+  margin-bottom: -4px;
+  height: 24px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+  &:hover {
+    background-color: #e0dfdc;
+  }
+  span {
+    font-size: 0.875rem;
+    line-height: 2rem;
+    color: #616160;
+    font-weight: 600;
+  }
+  img {
+    width: 16px;
+  }
+  display: none;
+  @media (max-width: 750px) {
+    display: flex;
+  }
+`;
+
 const Cover = styled.div`
   height: 56.25px;
   background: linear-gradient(45deg, red, #020297);
@@ -81,6 +114,9 @@ const Cover = styled.div`
 
 const Wrapper = styled.section`
   border: 1px solid #e0dfdc;
+  @media (max-width: 750px) {
+    border: none;
+  }
   background-color: #fff;
   line-height: 1.333;
   border-radius: 8px;
@@ -149,6 +185,10 @@ const Connection = styled.div`
   padding: 16px 12px;
   border-bottom: 1px solid #e0dfdc;
   transition: background-color 0.15s ease-in-out;
+
+  @media (max-width: 750px) {
+    display: none;
+  }
   &:hover {
     background-color: #ebebeb;
   }
@@ -175,6 +215,9 @@ const Connection = styled.div`
 
 const Premium = styled.div`
   transition: background-color 0.15s ease-in-out;
+  @media (max-width: 750px) {
+    display: none;
+  }
   &:hover {
     background-color: #ebebeb;
   }
@@ -203,6 +246,9 @@ const Premium = styled.div`
 `;
 
 const Bookmark = styled.div`
+  @media (max-width: 750px) {
+    display: none;
+  }
   padding: 12px;
   cursor: pointer;
   transition: background-color 0.15s ease-in-out;
@@ -227,6 +273,9 @@ const BottomCard = styled.div`
   position: sticky;
   top: 76px;
   transition: top 667ms ease-in-out;
+  @media (max-width: 750px) {
+    display: none;
+  }
   .top {
     padding: 8px 8px 4px 12px;
     div {

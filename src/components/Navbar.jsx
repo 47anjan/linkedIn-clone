@@ -223,6 +223,12 @@ const ListWrapper = styled.li`
       margin-left: 12px;
     }
   }
+
+  @media (max-width: 360px) {
+    &:nth-child(5) {
+      display: none;
+    }
+  }
 `;
 
 const LeftContainer = styled.div`

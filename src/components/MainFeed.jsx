@@ -14,11 +14,19 @@ import post1 from "../images/post1.jpg";
 import free from "../images/freecodelogo.jpg";
 import post2 from "../images/post2.jpg";
 
-import like from "../images/like.svg";
+import like3 from "../images/like.svg";
 import comment from "../images/comment.svg";
 import repo from "../images/rotate.svg";
 import send from "../images/send.svg";
 import ShowMore from "./ShowMore";
+
+import like2 from "../images/like2.svg";
+import love from "../images/love.svg";
+import care from "../images/care.svg";
+import clap from "../images/clap.svg";
+import haha from "../images/haha.svg";
+import idia from "../images/idia.svg";
+import think from "../images/think.svg";
 
 const MainFeed = () => {
   return (
@@ -67,6 +75,7 @@ const MainFeed = () => {
         date={"1w"}
         com={"2"}
         repost={"2"}
+        like={185}
         title={
           "We're doing it again! You can win a Keychron keyboard by writing blogs! ⌨️"
         }
@@ -79,6 +88,7 @@ const MainFeed = () => {
         date={"1h"}
         com={"72"}
         repost={"22"}
+        like={725}
         title={
           "Here's a course that'll teach you the skills required to become a front-end dev."
         }
@@ -92,6 +102,7 @@ const MainFeed = () => {
         date={"1w"}
         com={"2"}
         repost={"2"}
+        like={125}
         title={
           "We're doing it again! You can win a Keychron keyboard by writing blogs! ⌨️"
         }
@@ -111,6 +122,7 @@ const Posts = ({
   repost,
   logo,
   profileName,
+  like,
 }) => {
   return (
     <Post>
@@ -150,7 +162,12 @@ const Posts = ({
         <img src={img} alt="" />
       </div>
       <div className="react">
-        <div className="emoji">😍👍❤️</div>
+        <div className="emoji">
+          <img src={like2} alt="" />
+          <img src={love} alt="" />
+          <img src={care} alt="" />
+          <span>{like}</span>
+        </div>
         <div className="com">
           <span>{com} comment</span>
           <span>•</span>
@@ -158,7 +175,7 @@ const Posts = ({
         </div>
       </div>
       <Buttons>
-        <Button icon={like} title={"Like"} />
+        <Button icon={like3} title={"Like"} />
         <Button icon={comment} title={"Comment"} />
         <Button icon={repo} title={"Repost"} />
         <Button icon={send} title={"Send"} />
@@ -174,6 +191,15 @@ const Main = styled.main`
 const Button = ({ icon, title }) => {
   return (
     <ReactButton>
+      <div className="reacts">
+        <img src={like2} alt="" />
+        <img src={clap} alt="" />
+        <img src={care} alt="" />
+        <img src={haha} alt="" />
+        <img src={love} alt="" />
+        <img src={idia} alt="" />
+        <img src={think} alt="" />
+      </div>
       <div>
         <img src={icon} alt="" />
         <span>{title}</span>
@@ -188,6 +214,43 @@ const Buttons = styled.div`
   display: grid;
   gap: 8px;
   grid-template-columns: repeat(4, 1fr);
+  position: relative;
+  .reacts {
+    left: 8px;
+    top: -46px;
+
+    @media (max-width: 768px) {
+      left: 12px;
+    }
+
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 8px 8px rgb(0 0 0 / 0.3);
+    border-radius: 10px;
+    height: 50px;
+    padding: 4px 8px;
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    gap: 4px;
+    img {
+      cursor: pointer;
+      width: 32px;
+      display: block;
+      transition: all 0.2s ease-in-out;
+
+      &:hover {
+        scale: 1.4;
+        translate: 0 -15px;
+      }
+    }
+  }
+  &:nth-of-type() {
+    background-color: red;
+  }
+  .hover {
+    background-color: red;
+  }
 `;
 
 const ReactButton = styled.div`
@@ -202,6 +265,17 @@ const ReactButton = styled.div`
   &:hover {
     background-color: #e0e0e0;
   }
+  .reacts {
+    display: none;
+  }
+  &:nth-child(1) {
+    &:hover {
+      .reacts {
+        display: flex;
+      }
+    }
+  }
+
   div {
     display: flex;
     align-items: center;
@@ -367,7 +441,18 @@ const Post = styled(Wrapper)`
       gap: 4px;
     }
     .emoji {
-      font-size: 1rem;
+      display: flex;
+      align-items: center;
+      img {
+        width: 16px;
+        border-radius: 100vh;
+      }
+      span {
+        font-size: 0.75rem;
+        line-height: 1.333;
+        color: #666666;
+        margin-left: 4px;
+      }
     }
   }
 `;
