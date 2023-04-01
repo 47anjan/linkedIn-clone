@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import Main from "./components/Main";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar/Navbar";
 import Chat from "./components/Chat/Chat";
 
 function App() {
